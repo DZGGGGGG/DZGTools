@@ -1,0 +1,16 @@
+PODS:
+  - MyToolsClass (1.0.0)
+
+DEPENDENCIES:
+  - MyToolsClass (from `../`)
+
+EXTERNAL SOURCES:
+  MyToolsClass:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyToolsClass: e7b2d2cd241928078b72dce0e5586718b2778ede
+
+PODFILE CHECKSUM: 238fd6bb719f62c48bc659f88b62c87d71f52b82
+
+COCOAPODS: 1.9.1

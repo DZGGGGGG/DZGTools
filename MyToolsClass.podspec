@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyToolsClass'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MyToolsClass.'
+  s.version          = '1.0.0'
+  s.summary          = '我的工具类 MyToolsClass.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/15913420136@163.com/MyToolsClass'
+  s.homepage         = 'https://github.com/DZGGGGGG'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '15913420136@163.com' => '1062005302@qq.com' }
-  s.source           = { :git => 'https://github.com/15913420136@163.com/MyToolsClass.git', :tag => s.version.to_s }
+  s.author           = { '1062005302@qq.com' => '1062005302@qq.com' }
+  s.source           = { :git => 'https://DZGGGGGG:dingzhigang222@github.com/DZGGGGGG/MyToolsClass.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

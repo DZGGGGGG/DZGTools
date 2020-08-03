@@ -63,9 +63,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3E4FBBF9F686C763EE70A0C /* MyToolsClass.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyToolsClass.podspec; path = ../MyToolsClass.podspec; sourceTree = "<group>"; };
-		C05825BF117C72CDB9837FA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F1B5FA444CD0AAD1DCA654B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3E4FBBF9F686C763EE70A0C /* MyToolsClass.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyToolsClass.podspec; path = ../MyToolsClass.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C05825BF117C72CDB9837FA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F1B5FA444CD0AAD1DCA654B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FBAB736C2E4328D7FCE66B7D /* Pods_MyToolsClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyToolsClass_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				3EC9050E4551AB68D4C7D7A8 /* Pods-MyToolsClass_Tests.debug.xcconfig */,
 				26C214DB2EF3ECA4219D4C0B /* Pods-MyToolsClass_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
