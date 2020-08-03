@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyToolsClass
 
 [![CI Status](https://img.shields.io/travis/15913420136@163.com/MyToolsClass.svg?style=flat)](https://travis-ci.org/15913420136@163.com/MyToolsClass)
@@ -27,3 +28,6 @@ pod 'MyToolsClass'
 ## License
 
 MyToolsClass is available under the MIT license. See the LICENSE file for more info.
+=======
+# DZGTools
+>>>>>>> c7aa4c271676793049ef9c4960645e412e1c3909
