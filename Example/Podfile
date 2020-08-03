@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MyToolsClass_Example' do
+  pod 'MyToolsClass', :path => '../'
+
+  target 'MyToolsClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
