@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyToolsClass'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '我的工具类 MyToolsClass.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1062005302@qq.com' => '1062005302@qq.com' }
-  s.source           = { :git => 'https://DZGGGGGG:dingzhigang222@github.com/DZGGGGGG/MyToolsClass.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://DZGGGGGG:dingzhigang222@github.com/DZGGGGGG/DZGTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
