@@ -1,5 +1,5 @@
 PODS:
-  - MyToolsClass (1.0.0)
+  - MyToolsClass (1.0.2)
 
 DEPENDENCIES:
   - MyToolsClass (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyToolsClass: 4576a635a9fe14183ae97fbf00c41cc32809067c
+  MyToolsClass: 58354ef867d96b29b3db4acb0f50512d14e7c9a4
 
 PODFILE CHECKSUM: 238fd6bb719f62c48bc659f88b62c87d71f52b82
 

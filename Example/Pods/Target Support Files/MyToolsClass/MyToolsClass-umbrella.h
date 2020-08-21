@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "HippyAppDelegateManager.h"
+#import "HippyAppDelegateService.h"
 #import "UIColor+colorChange.h"
 #import "UIImage+WLCompress.h"
 #import "UIViewController+Navigater.h"
