@@ -349,16 +349,19 @@ static NSString * LocalPrivateFileModulePath() {
             [fileLocalhostUrl appendString:ip];
             [fileLocalhostUrl appendFormat:@"%@",[mt_FilePath componentsSeparatedByString:@"mtLocal://"][1]];
         #else
-            [fileLocalhostUrl appendString:[[NSBundle mainBundle] bundlePath]];
-            [fileLocalhostUrl appendFormat:@"/res/%@",[mt_FilePath componentsSeparatedByString:@"mtLocal://"][1]];
+            NSArray *file_array = [mt_FilePath componentsSeparatedByString:@"/"];
+            NSString *file_str = [file_array lastObject];
+            NSString *real_file_str = [[NSBundle mainBundle] pathForResource:[file_str componentsSeparatedByString:@"."][0] ofType:[file_str componentsSeparatedByString:@"."][1]];
+            fileLocalhostUrl = real_file_str;
         #endif
+        
     }
     else if ([mt_FilePath containsString:@"http://"] || [mt_FilePath containsString:@"https://"])
     {
         return mt_FilePath;
     }
     else{
-        NSLog(@"路径不是指定的mtLocal mtData mtCache mtFile http https 路径 返回原来的路径");
+        //NSLog(@"路径不是指定的mtLocal mtData mtCache mtFile http https 路径 返回原来的路径");
         return mt_FilePath;
     }
     return fileLocalhostUrl;

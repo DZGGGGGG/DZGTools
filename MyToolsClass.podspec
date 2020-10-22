@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyToolsClass'
-  s.version          = '1.0.2'
-  s.summary          = '我的工具类 MyToolsClass.'
+  s.version          = '1.0.4'
+  s.summary          = '我的工具类 MyToolsClass.更新了获取地址的方法'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
