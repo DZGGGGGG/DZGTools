@@ -11,7 +11,6 @@
 
 
 @interface HippyAppDelegateService : UIResponder <UIApplicationDelegate>
-
-
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, assign)BOOL allowRotation;//是否允许转向
 @end

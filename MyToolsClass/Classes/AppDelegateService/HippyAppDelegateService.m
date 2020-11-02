@@ -31,7 +31,6 @@
     });
     return methods;
 }
-
 - (BOOL)respondsToSelector:(SEL)aSelector {
     BOOL canResponse = [self methodForSelector:aSelector] != nil && [self methodForSelector:aSelector] != _objc_msgForward;
     if (! canResponse && [[self appDelegateMethods] containsObject:NSStringFromSelector(aSelector)]) {
@@ -39,9 +38,17 @@
     }
     return canResponse;
 }
-
 - (void)forwardInvocation:(NSInvocation *)anInvocation {
+    
     [[HippyAppDelegateManager sharedManager] proxyForwardInvocation:anInvocation];
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window{
+    if (_allowRotation == YES) {   // 如果属性值为YES,仅允许屏幕向左旋转,否则仅允许竖屏
+        return UIInterfaceOrientationMaskLandscapeRight;  // 这里是屏幕要旋转的方向
+    }else{
+        return (UIInterfaceOrientationMaskPortrait);
+    }
 }
 
 @end
