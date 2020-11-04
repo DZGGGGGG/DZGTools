@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HippyAppDelegateManager.h"
+#import "HippyRootView.h"
 
 
 @interface HippyAppDelegateService : UIResponder <UIApplicationDelegate>
